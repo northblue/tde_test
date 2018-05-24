@@ -2,6 +2,7 @@
 This is a simple project for TDE interview test
 
 
+
 How to set up it on local Dev environment:
 
 Upload the source folder into your local php server (such as Mamp or vagrant box).
@@ -9,6 +10,7 @@ The entery point of the application is "root_folder/pub/index.php".
 
 Input country name (country name must follow ISO 3166-1 country names standard).
 Click search, you will see the returning result.
+
 
 
 A bit thoughts for this App:
@@ -20,7 +22,10 @@ I also found the return result for the total pages is wrong. Therefore, I cannot
 All search result can be added to bookmark since the search keyword and paging info was passed from URL(Be aware, the search results may be different for the same url on a different time. Since the data may be updated from last.fm side )
 
 
+
+
 Todo: (Since that is a quick test, there are still something we can improve if we want to use it as a product)
+
 The entry point of the application and css file were placed into the pub folder. That is for the sake of good structure and security. A .htaccess file or server-side ACL should be applied to restrict the direct access to all other folders except the pub folder.
 
 An input validation should be added to the search form. That will prevent the illegal characters from breaking php application or API call. Should never trust the input data from the end user.
