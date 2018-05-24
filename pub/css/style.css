@@ -1,0 +1,45 @@
+#page-container{ width:755px; margin:0 auto;}
+#page-container a{color: #00abe1; margin: 5px;}
+#page-header{text-align:center; font-size:48px; font-weight:bold; font-family:rockwell; margin:20px 0;}
+#search-form{
+    margin: 10px 0;
+}
+#search-form input{
+    width: 65px;
+    margin-right: 15px;
+    margin-left: 5px;
+}
+.paging-container{ 
+    width: 100%; 
+    text-align: center;     
+    float: left;
+    padding: 20px;
+}
+.pagin-middle{ display: inline;}
+#search-form span{color:red;}
+.sample-data{color: #666; text-align: center;}
+#page-container a.active{
+    color:#99cc00;
+}
+.reset-search-link {
+    text-decoration: none;
+    margin: 10px 0!important;
+    display: block;
+}
+.artist-container{
+    clear: both;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 0;
+    display: block;
+    float: left;
+    width: 100%;
+}
+.artist-thumbnail{
+    float: left;
+}
+.artist-name{
+    float: left;
+    padding: 0 15px;
+}
